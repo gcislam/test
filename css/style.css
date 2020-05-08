@@ -1,0 +1,31 @@
+* {
+  font-family: "Cairo";
+  direction: rtl; }
+
+.questions {
+  text-align: center;
+  margin: 150px 0; }
+  .questions h1 {
+    margin-bottom: 35px; }
+  .questions button {
+    background-color: #2bb16e;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 7px;
+    border: none;
+    outline: none;
+    display: block;
+    margin: 15px auto; }
+  .questions input, .questions select {
+    max-width: 300px;
+    margin: 10px auto;
+    padding: 0 10px; }
+  .questions p {
+    margin: 25px 0;
+    line-height: 2; }
+  .questions .p {
+    font-family: 'Montserrat'; }
+  .questions .box:not(.active) {
+    display: none; }
+
+/*# sourceMappingURL=style.css.map */

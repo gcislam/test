@@ -1,0 +1,37 @@
+* {
+    font-family: "Cairo";
+    direction: rtl;
+}
+.questions {
+    text-align: center;
+    margin: 150px 0;
+    h1 {
+        margin-bottom: 35px;
+    }
+    button {
+        background-color: rgb(43, 177, 110);
+        color: #fff;
+        padding: 10px 20px;
+        border-radius: 7px;
+        border: none;
+        outline: none;
+        display: block;
+        margin: 15px auto;
+    }
+    input,select {
+        max-width: 300px;
+        margin: 10px auto;
+        padding: 0 10px;
+    }
+  
+    p {
+        margin: 25px 0;
+        line-height: 2;
+    }
+    .p { 
+        font-family: 'Montserrat';
+    }
+    .box:not(.active) {
+        display: none;
+    }
+}
